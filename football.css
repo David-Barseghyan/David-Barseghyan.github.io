@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header > h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.some > #inp {
+    padding: 0.4375em 1em 0.4375em 3.125em;
+    font-size: 1rem;
+    position: relative;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.some > #inp:focus {
+    border-color: #ccc;
+}
+
+#header > .some > img[alt="search-icon"] {
+    width: 38px;
+    height: 29px;
+    position: absolute;
+    margin-left: -255px;
+    margin-top: 3px;
+}
+
+#header > .some > img[alt="search-icon"]:hover {
+    cursor: pointer;
+}
+
+main {
+    width: 90%;
+    margin: 0px auto;
+}
+
+#Important {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon-1 {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    border: 1px solid #ccc;
+    margin-top: 30px;
+}
+
+.icon-1 > .img {
+    height: 100%;
+    width: 70%;
+}
+
+.icon-1 > .img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.new {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 145px;
+}
+
+.new > .p1 {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+.new > a {
+    text-decoration: none;
+}
+
+#Halland {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#Halland > h1 {
+    font-size: 2.5rem;
+    line-height: 50px;
+}
+
+#Halland > #nkar {
+    width: 100%;
+    height: 550px;
+    margin-top: 35px;
+}
+
+.texts {
+    margin-top: 20px;
+}
+
+.texts > #p11 {
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.texts > #p22 {
+    font-size: 1.4em;
+}
+
+.icon-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.icon-2 > .some-1, .some-2, .some-3 {
+    width: 30%;
+    border: 1px solid #ccc;
+}
+
+.some-1 > .img1 {
+    height: 180px;
+}
+
+.img1 {
+    height: 65%;
+    border: 1px solid #ccc;
+}
+
+.img1 > img {
+    height: 100%;
+    width: 100%;
+}
+
+.new-history {
+    text-align: center;
+}
+
+.new-history > a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.new-history > #norutyun {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.dav_karevor {
+    margin-top: 70px;
+}
+
+#today-games {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.football__matches {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.football__matches > p {
+    font-size: 30px;
+}
+
+.result__foot {
+    margin-top: 50px;
+}
+
+.result__foot > h1 {
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.iframe {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iframe > iframe {
+    width: 30%;
+    height: 220px;
+}
+
+#footer {
+    margin-top: 80px;
+    height: 300px;
+    background: rgba(128, 128, 128, 0.4);
+    width: 100%;
+}
+
+.box__footer {
+    margin-left: 40%;
+}
+
+.link {
+    margin-top: 10px;
+    margin-left: -600px;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.link > a {
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.box__footer > h1 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.dav__lav___txa {
+    margin-top: -15px;
+}
+
+@media screen and (max-width: 629px) {
+    .link {
+        margin-left: -900px;
+    }
+}
